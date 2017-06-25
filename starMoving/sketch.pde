@@ -1,6 +1,6 @@
-star s[] = new star[100];
+star s[] = new star[800];
 void setup(){
-  size(400,400);
+  size(800,800);
   for(int i=0;i<s.length;i++){
     s[i] = new star();
   }
@@ -8,7 +8,7 @@ void setup(){
 
 void draw(){
    background(0); 
-   
+   translate(width/2,height/2);
    for(int i=0;i<s.length;i++){
      
      s[i].update();

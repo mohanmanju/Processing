@@ -1,2 +1,2 @@
 # Processing
-Repo to some of th example projects in processing
+Repo to some of the example projects in processing
